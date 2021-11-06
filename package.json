@@ -1,0 +1,22 @@
+{
+  "name": "deduplicate-anki-cards",
+  "version": "1.0.0",
+  "description": "deduplicate anki cards",
+  "main": "index.js",
+  "scripts": {
+    "deduplicate": "node deduplicate.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szymonkorytnicki/deduplicate-anki-cards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szymonkorytnicki/deduplicate-anki-cards/issues"
+  },
+  "homepage": "https://github.com/szymonkorytnicki/deduplicate-anki-cards#readme",
+  "dependencies": {
+    "csv-parse": "^4.16.3"
+  }
+}

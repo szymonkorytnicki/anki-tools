@@ -4,7 +4,8 @@
   "description": "deduplicate anki cards",
   "main": "index.js",
   "scripts": {
-    "deduplicate": "node deduplicate.mjs"
+    "deduplicate": "node deduplicate.mjs",
+    "duolingo": "cd duolingo-utils && node --experimental-json-modules today-words.mjs"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/szymonkorytnicki/deduplicate-anki-cards#readme",
   "dependencies": {
-    "csv-parse": "^4.16.3"
+    "csv-parse": "^4.16.3",
+    "date-fns": "^2.28.0"
   }
 }
